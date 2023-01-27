@@ -1,0 +1,42 @@
+{
+  "name": "getrefreshtoken",
+  "version": "1.0.0",
+  "description": "this is to obtaining refreshtoken for drivedownloader module",
+  "main": "getRefreshToken.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitesh911/getRefreshToken.git"
+  },
+  "author": {
+    "name": "JUFFLER",
+    "email": "hp354998@gmail.com"
+  },
+  "license": "MIT",
+   "bugs": {
+    "url": "https://github.com/hitesh911/getRefreshToken/issues"
+  },
+  "homepage": "https://github.com/hitesh911/getRefreshToken#readme",
+  "dependencies": {
+    "axios": "^1.2.5"
+  },
+  "exports":{
+    ".":{
+      "import":"./getRefreshToken.mjs",
+      "require":"./getRefreshToken.js"
+    }
+  },
+  "keywords": [
+    "driveDownloader",
+    "google",
+    "drive",
+    "downloader",
+    "google",
+    "drive",
+    "video",
+    "downloader",
+    "refreshtoken",
+  ]
+}
